@@ -1,1 +1,1 @@
-function findPerime
+function findPerime num1+num2*2

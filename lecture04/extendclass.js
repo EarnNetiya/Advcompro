@@ -1,6 +1,6 @@
 class Media {
-    constructor(into) {
-        this.publicDate = into.publicDate
+    constructor(info) {
+        this.publicDate = info.publicDate
         this.name = info.name;
     }
 }
@@ -17,3 +17,4 @@ const mySong = new Song({
     name: "Bohemain Rhapsody",
     publicDate: 1975
 })
+console.log(mySong);
